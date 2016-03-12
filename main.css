@@ -1,0 +1,40 @@
+  html, body, h1, h2, h3, h4, ul, ol, li, p, a {padding: 1px;
+                                                border-width: 0px;
+                                                margin: 5px;
+                                                font-family: arial;}
+  body {background-color: #ffcb3b;}
+  h1 {font-size: 24px;
+      color: #dd6600;
+      padding: 8px;}
+  h2 {padding: 4px 4px 4px 4px;}
+  h3 {padding: 2px;}
+  a {text-decoration: none;
+     color: maroon;}
+  a:hover {color: red;
+           text-decoration: underline;}
+  p {color: #555555;
+     padding: 20px 2px 2px 6px;}
+/* header */
+  .header {background-color: #ffcb3b;}
+  .header h1 {color: #ffffff;}
+/* navigation list */
+  .navlist {padding: 4px 0px 12px 0px;
+            margin-bottom: 24px;}
+  .navlist li {display: inline;
+               font-weight: bold;
+               padding: 1px;
+               border: 2px solid #ffcb3b;
+               margin: 2px;}
+  .navlist li:hover {border: 2px solid #ffffff;}
+  .navlist li a {color: #ffffff;}
+  .navlist li a:hover {text-decoration:none;}
+/* main content of pages */
+  .main-content {padding: 18px 7px 7px 7px;
+                 background-color: #ffffff;}
+/* titles of pages */
+  .pgtitles {display: inline;
+        color: #444444;
+        padding: 1px 4px 1px 4px;
+        border: 3px solid #444444}
+  .pgtitles:hover {color: #ffffff;
+                   border: 3px solid #ffffff;}
