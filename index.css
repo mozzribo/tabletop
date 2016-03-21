@@ -1,0 +1,68 @@
+  html, body, h1, h2, h3, h4, ul, ol, li, p, a {padding: 0px;
+                                                border-width: 0px;
+                                                margin: 0px;
+                                                font-family: Calibri, Arial, sans-serif;
+                                                font-size: 100%;}
+  body {padding: 1px;
+        margin: 5px;
+        background-color: #ffcf3f;}
+  h1 {font-size: 24px;
+      color: #dd6600;
+      padding: 8px;
+      margin: 5px;}
+  h2 {padding: 4px 4px 4px 4px;}
+  h3 {padding: 2px;}
+  a {text-decoration: none;
+     color: maroon;
+}
+  a:hover {color: red;
+           text-decoration: underline;}
+  p {color: #555555;
+     padding: 20px 2px 2px 6px;
+     margin: 5px 5px 5px 2px;}
+/* header */
+  .header {background-color: #ffcf3f;}
+  .header h1 {color: #ffffff;
+              text-align: center;
+              padding: 2px;
+              font-size: 28px;
+              font-weight: bold;
+              color: #9b00ee;}
+  .header a:hover {text-decoration:none;}
+  .header img {display: block;
+               margin: 0 auto 4px auto;}
+  .intro {background-color: #ffffff;
+          padding: 7px 7px 7px 7px;
+          width: 700px;
+          height: 110px;
+          margin: 0px auto 15px auto;}
+  .intro h2 {font-size: 24px;
+             text-align: center;
+             color: #555555;
+             margin: 12px 0px 0px 0px;}
+  .intro h3 {font-size: 17px;
+             text-align: center;
+             color: #555555;
+             padding: 10px 5px 18px 5px;} 
+/* main content of pages */
+  .main-content {padding: 10px 7px 7px 7px;
+                 background-color: #ffffff;
+                 width: 700px;
+                 height: 300px;
+                 margin: 0px auto 0px auto;}
+  .main-content h4 {font-size: 18px;
+                    text-align: center;
+                    color: #555555;
+                    padding: 10px 5px 5px 5px;}
+  .main-content ul li {list-style-type: none;
+                       font-size: 19px;
+                       font-weight: bold;
+                       text-align: center;
+                       padding: 5px 5px 5px 5px;
+                       border: 2px solid #ffffff;
+                       margin: 10px auto 10px auto;}
+  .main-content ul li:hover {border: 2px solid #9b00ee;}
+  .main-content ul li:active {border: 2px inset #d88fff;}
+  .main-content ul li a {color: #9b00ee;}
+  .main-content ul li a:hover {text-decoration:none;
+                       color: #a436ff;}

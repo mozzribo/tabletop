@@ -1,40 +1,85 @@
-  html, body, h1, h2, h3, h4, ul, ol, li, p, a {padding: 1px;
+  html, body, h1, h2, h3, h4, ul, ol, li, p, a {padding: 0px;
                                                 border-width: 0px;
-                                                margin: 5px;
-                                                font-family: arial;}
-  body {background-color: #ffcb3b;}
+                                                margin: 0px;
+                                                font-family: Calibri, Arial, sans-serif;
+                                                font-size: 100%;}
+  body {padding: 1px;
+        margin: 5px;
+        background: #ffcf3f url(images/blob.png) bottom right no-repeat;}
   h1 {font-size: 24px;
       color: #dd6600;
-      padding: 8px;}
+      padding: 8px;
+      margin: 5px;}
   h2 {padding: 4px 4px 4px 4px;}
   h3 {padding: 2px;}
   a {text-decoration: none;
-     color: maroon;}
+     color: maroon;
+}
   a:hover {color: red;
            text-decoration: underline;}
   p {color: #555555;
-     padding: 20px 2px 2px 6px;}
+     padding: 20px 2px 2px 6px;
+     margin: 5px 5px 5px 2px;}
 /* header */
-  .header {background-color: #ffcb3b;}
-  .header h1 {color: #ffffff;}
+  .header {background-color: #ffcf3f;}
+  .header h1 {color: #ffffff;
+              text-align: center;
+              padding: 2px;
+              font-size: 28px;
+              font-weight: bold;
+              color: #9b00ee;}
+  .header a:hover {text-decoration:none;}
+  .header img {display: block;
+               margin: 0 auto 4px auto;}
 /* navigation list */
   .navlist {padding: 4px 0px 12px 0px;
-            margin-bottom: 24px;}
+            margin: 7px 0 20px 0;
+            text-align: center;}
   .navlist li {display: inline;
                font-weight: bold;
-               padding: 1px;
-               border: 2px solid #ffcb3b;
-               margin: 2px;}
-  .navlist li:hover {border: 2px solid #ffffff;}
-  .navlist li a {color: #ffffff;}
-  .navlist li a:hover {text-decoration:none;}
+               padding: 3px 4px 3px 4px;
+               border: 2px solid #ffcf3f;
+               margin: 0 10px 0 10px;}
+  .navlist li:hover {border: 2px solid #9b00ee;}
+  .navlist li:active {border: 2px inset #d88fff;}
+  .navlist li a {color: #9b00ee;}
+  .navlist li a:hover {text-decoration:none;
+                       color: #a436ff;}
+  .header-start ul li:first-child a {color: #d88fff;}
+  .header-start ul li:first-child {border: 2px solid #d88fff;}
+  .header-start ul li:first-child a:hover {color: #a436ff;}
+  .header-start ul li:first-child:hover {border: 2px solid #9b00ee;}
+  .header-start ul li:first-child:active {border: 2px inset #d88fff;}
+  .header-rules ul li:nth-of-type(2) a {color: #d88fff;}
+  .header-rules ul li:nth-of-type(2) {border: 2px solid #d88fff;}
+  .header-rules ul li:nth-of-type(2) a:hover {color: #a436ff;}
+  .header-rules ul li:nth-of-type(2):hover {border: 2px solid #9b00ee;}
+  .header-rules ul li:nth-of-type(2):active {border: 2px inset #d88fff;}
+  .header-faq ul li:nth-of-type(3) a {color: #d88fff;}
+  .header-faq ul li:nth-of-type(3) {border: 2px solid #d88fff;}
+  .header-faq ul li:nth-of-type(3) a:hover {color: #a436ff;}
+  .header-faq ul li:nth-of-type(3):hover {border: 2px solid #9b00ee;}
+  .header-faq ul li:nth-of-type(3):active {border: 2px inset #d88fff;}
+  .header-about ul li:nth-of-type(4) a {color: #d88fff;}
+  .header-about ul li:nth-of-type(4) {border: 2px solid #d88fff;}
+  .header-about ul li:nth-of-type(4) a:hover {color: #a436ff;}
+  .header-about ul li:nth-of-type(4):hover {border: 2px solid #9b00ee;}
+  .header-about ul li:nth-of-type(4):active {border: 2px inset #d88fff;}
 /* main content of pages */
   .main-content {padding: 18px 7px 7px 7px;
-                 background-color: #ffffff;}
+                 background-color: #ffffff;
+                 width: 700px;
+                 height: 550px;
+                 margin: 0px auto 0px auto}
+  .main-content-start {width: 300px;
+                       height: 86px;
+                       background: #ffffff url(images/begin_field_s.png) center right no-repeat;
+                       margin: 12px 0px 0px 0px;}
 /* titles of pages */
   .pgtitles {display: inline;
         color: #444444;
         padding: 1px 4px 1px 4px;
-        border: 3px solid #444444}
-  .pgtitles:hover {color: #ffffff;
-                   border: 3px solid #ffffff;}
+        border: 3px solid #444444;
+        margin: 5px;
+        font-size: 22px;
+        font-weight: bold;}
