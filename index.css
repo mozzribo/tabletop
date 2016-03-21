@@ -32,10 +32,10 @@
   .header img {display: block;
                margin: 0 auto 4px auto;}
   .intro {background-color: #ffffff;
-          padding: 7px 7px 7px 7px;
-          width: 700px;
+          padding: 7px 7px 4px 7px;
+          width: 800px;
           height: 110px;
-          margin: 0px auto 15px auto;}
+          margin: 0px auto 25px auto;}
   .intro h2 {font-size: 24px;
              text-align: center;
              color: #555555;
@@ -43,7 +43,7 @@
   .intro h3 {font-size: 17px;
              text-align: center;
              color: #555555;
-             padding: 10px 5px 18px 5px;} 
+             padding: 15px 5px 18px 5px;} 
 /* main content of pages */
   .main-content {padding: 10px 7px 7px 7px;
                  background-color: #ffffff;
@@ -65,4 +65,12 @@
   .main-content ul li:active {border: 2px inset #d88fff;}
   .main-content ul li a {color: #9b00ee;}
   .main-content ul li a:hover {text-decoration:none;
-                       color: #a436ff;}
+                               color: #a436ff;}
+  .steplinks ul li:nth-of-type(1):hover {width: 130px;}
+  .steplinks ul li:nth-of-type(2):hover {width: 126px;}
+  .morelinks ul li:nth-of-type(1):hover {width: 321px;}
+  .morelinks ul li:nth-of-type(2):hover {width: 266px;}
+  .steplinks ul li:nth-of-type(1):active {width: 130px;}
+  .steplinks ul li:nth-of-type(2):active {width: 126px;}
+  .morelinks ul li:nth-of-type(1):active {width: 321px;}
+  .morelinks ul li:nth-of-type(2):active {width: 266px;}
